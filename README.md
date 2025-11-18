@@ -11,10 +11,12 @@ Prueba técnica: API CRUD con autenticación.
 * Manejo mediante HTTP (GET,POST PATCH, DELETE).
 * Respuestas en formato JSON.
 
-## Instalación 
+## Instalación
+
 1. Clonar repositorio
 2. `python3 -m venv venv`
 3. `source venv/bin/activate`
 4. `pip install -r requirements.txt`
 5. `python3 manage.py migrate`
-6. `python3 manage.py runserver`
+6. `python3 manage.py createsuperuser`  <-- (Sigue las instrucciones para crear tu admin)
+7. `python3 manage.py runserver`
