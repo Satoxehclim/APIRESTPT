@@ -52,10 +52,11 @@ curl -u tu_usuario:tu_password -X PATCH \
 curl -u tu_usuario:tu_password -X DELETE [http://127.0.0.1:8000/api/tareas/1/](http://127.0.0.1:8000/api/tareas/1/)
 ```
 ### Opción B: Usando Insomnia / Postman
-1. Auth: Selecciona Basic Auth e ingresa tus credenciales.
-2. Body: Selecciona formato JSON.
-3. Endpoints:
-GET /api/tareas/
-POST /api/tareas/ (JSON: {"nombre": "...", "completada": false})
-PATCH /api/tareas/<id>/
-DELETE /api/tareas/<id>/
+
+1. **Auth:** Selecciona `Basic Auth` e ingresa tus credenciales.
+2. **Body:** Selecciona formato `JSON`.
+3. **Endpoints:**
+   * `GET` `/api/tareas/`
+   * `POST` `/api/tareas/` (JSON: `{"nombre": "...", "completada": false}`)
+   * `PATCH` `/api/tareas/<id>/`
+   * `DELETE` `/api/tareas/<id>/`
